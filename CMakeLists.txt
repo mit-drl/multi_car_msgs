@@ -54,6 +54,7 @@ add_message_files(
   CarControl.msg
   ConsensusMsg.msg
   UWBRange.msg
+  GPS.msg
 )
 
 ## Generate services in the 'srv' folder
