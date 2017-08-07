@@ -1,5 +1,7 @@
 Header header
 
+uint32 seq
+
 # ego car id
 string from_id
 
