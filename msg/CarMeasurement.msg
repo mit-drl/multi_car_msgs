@@ -1,5 +1,5 @@
 Header header
 string car_id
-sensor_msgs/NavSatFix gps
+nav_msgs/Odometry[] gps
 UWBRange[] range
 CarControl control
