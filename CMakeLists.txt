@@ -57,11 +57,8 @@ add_message_files(
   GPS.msg
   CarState.msg
   CombinedState.msg
-<<<<<<< HEAD
   LidarPose.msg
-=======
   PozyxDebug.msg
->>>>>>> cafb0526a999673ef59547b80f76282b02589971
 )
 
 ## Generate services in the 'srv' folder
