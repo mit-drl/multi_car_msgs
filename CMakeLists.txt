@@ -57,6 +57,7 @@ add_message_files(
   GPS.msg
   CarState.msg
   CombinedState.msg
+  LidarPose.msg
 )
 
 ## Generate services in the 'srv' folder
