@@ -59,6 +59,7 @@ add_message_files(
   CombinedState.msg
   LidarPose.msg
   PozyxDebug.msg
+  MeasurementDebug.msg
 )
 
 ## Generate services in the 'srv' folder
