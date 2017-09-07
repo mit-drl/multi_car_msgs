@@ -60,6 +60,7 @@ add_message_files(
   LidarPose.msg
   PozyxDebug.msg
   MeasurementDebug.msg
+  SimplePose.msg
 )
 
 ## Generate services in the 'srv' folder

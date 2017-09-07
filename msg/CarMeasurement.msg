@@ -1,6 +1,7 @@
 Header header
 uint8 car_id
-nav_msgs/Odometry[] gps
+SimplePose[] gps
 UWBRange[] range
 CarControl[] control
-LidarPose[] lidar
+SimplePose[] lidar
+geometry_msgs/PoseStamped[] initial_pose
