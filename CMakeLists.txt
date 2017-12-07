@@ -11,6 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   sensor_msgs
   std_msgs
+  vesc_msgs
+  tf2_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -61,6 +63,7 @@ add_message_files(
   PozyxDebug.msg
   MeasurementDebug.msg
   SimplePose.msg
+  CanopyCollector.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -80,7 +83,7 @@ add_message_files(
 # Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
-  geometry_msgs   nav_msgs   sensor_msgs   std_msgs
+  geometry_msgs   nav_msgs   sensor_msgs   std_msgs vesc_msgs tf2_msgs
 )
 
 ################################################
@@ -115,7 +118,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES multi_car_msgs
-#  CATKIN_DEPENDS geometry_msgs nav_msgs roscpp rospy sensor_msgs std_msgs
+#  CATKIN_DEPENDS geometry_msgs nav_msgs roscpp rospy sensor_msgs std_msgs vesc_msgs tf2_msgs
 #  DEPENDS system_lib
 )
 
