@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>multi_car_msgs</name>
-  <version>0.0.0</version>
+  <version>1.1.1</version>
   <description>The multi_car_msgs package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
@@ -40,6 +40,7 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>roscpp</build_depend>
